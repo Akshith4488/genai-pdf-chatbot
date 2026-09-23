@@ -12,7 +12,7 @@ client = OpenAI(
     base_url="https://api.groq.com/openai/v1"
 )
 
-st.title("GenAI DOC Chatbot")
+st.title("GenAI PDX Chatbot")
 
 uploaded_file = st.file_uploader(
     "Upload a document",
