@@ -55,7 +55,7 @@ if uploaded_file:
     if question:
 
         prompt = f"""
-        Answer the question based on the File content below.
+        Answer the request based on the File content below.
 
         File Content:
         {file_text}
