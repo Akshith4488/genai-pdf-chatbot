@@ -49,7 +49,7 @@ if uploaded_file:
 
     st.success("File Loaded Successfully!")
 
-    question = st.text_input("Ask question from File:")
+    question = st.text_input("Request question from File:")
 
 
     if question:
